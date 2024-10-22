@@ -164,4 +164,6 @@ jobs:
 
 设置好之后，回到你的项目，推送你的代码到 GitHub，GitHub Actions 就会自动执行，并部署站点。
 
+你可以在 `Actions` 菜单项下查看执行情况：
+
 ![GitHub Actions](/github-actions.png)
