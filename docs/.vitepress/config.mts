@@ -6,6 +6,12 @@ export default defineConfig({
   description: "这里有一堆笔记",
   base: "/docs/",
   themeConfig: {
+    logo: { src: "/logo.svg", width: 24, height: 24 },
+
+    outline: {
+      label: "页面导航",
+    },
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },
