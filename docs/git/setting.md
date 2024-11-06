@@ -23,7 +23,7 @@ git config --global merge.default no-ff
 # 查看当前的拉取策略
 git config --global pull.ff
 # 设置拉取策略
-git config --global pull.ff only
+git config --global pull.ff true
 ```
 
 ::: tip
