@@ -19,6 +19,7 @@ export default defineConfig({
         text: "笔记",
         items: [
           { text: "vitepress", link: "/vitepress/deploy" },
+          { text: "git", link: "/git/commands" },
           { text: "temp", link: "/temp/api-examples" },
         ],
       },
@@ -32,6 +33,25 @@ export default defineConfig({
             {
               text: "部署",
               link: "/vitepress/deploy",
+            },
+          ],
+        },
+      ],
+      "/git/": [
+        {
+          text: "git",
+          items: [
+            {
+              text: "一些命令",
+              link: "/git/commands",
+            },
+            {
+              text: "版本更新时的操作",
+              link: "/git/update",
+            },
+            {
+              text: "设置",
+              link: "/git/setting",
             },
           ],
         },
