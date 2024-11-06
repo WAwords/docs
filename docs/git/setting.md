@@ -2,6 +2,10 @@
 
 ## 合并
 
+:::tip
+我们将其设置为`no-ff`，即不允许快进合并。
+:::
+
 ```sh
 # 查看当前的合并策略
 git config --global merge.default
@@ -10,6 +14,10 @@ git config --global merge.default no-ff
 ```
 
 ## 拉取
+
+:::tip
+我们将其设置为`true`，能快进则快进，不能快进则创建合并提交。
+:::
 
 ```sh
 # 查看当前的拉取策略
