@@ -20,7 +20,7 @@ export default defineConfig({
         items: [
           { text: "vitepress", link: "/vitepress/deploy" },
           { text: "git", link: "/git/commands" },
-          { text: "temp", link: "/temp/api-examples" },
+          { text: "uniapp", link: "/uniapp/app-update" },
         ],
       },
     ],
@@ -52,6 +52,17 @@ export default defineConfig({
             {
               text: "设置",
               link: "/git/setting",
+            },
+          ],
+        },
+      ],
+      "/uniapp/": [
+        {
+          text: "uniapp",
+          items: [
+            {
+              text: "应用更新",
+              link: "/uniapp/app-update",
             },
           ],
         },
