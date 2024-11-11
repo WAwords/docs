@@ -1,10 +1,10 @@
 # 应用更新
 
-在这里我们讨论的应用更新指的是应用内触发的更新，分为两种：`热更新`和`整包更新`。
+在这里我们讨论的应用更新指的是应用内触发的更新，分为两种：`增量更新`和`全量更新`。
 
-## 热更新
+## 增量更新
 
-热更新中，安卓和苹果的实现方式是一样的，最主要的操作是：`下载更新包`和`安装更新包`，对应的方法为`plus.downloader.createDownload()`和`plus.runtime.install()`。
+增量更新中，安卓和苹果的实现方式是一样的，最主要的操作是：`下载更新包`和`安装更新包`，对应的方法为`plus.downloader.createDownload()`和`plus.runtime.install()`。
 
 ```js{3,14,32}
 plus.nativeUI.showWaiting("正在更新...");
@@ -41,9 +41,9 @@ let downloader = plus.downloader.createDownload(
 downloader.start(); // 开始下载
 ```
 
-## 整包更新
+## 全量更新
 
-整包更新中，安卓和苹果的操作略有不同，主要区别在于安卓只需要提供下载 apk 的地址就行，而苹果需要`跳转到appstore`进行下载。
+全量更新中，安卓和苹果的操作略有不同，主要区别在于安卓只需要提供下载 apk 的地址就行，而苹果需要`跳转到appstore`进行下载。
 
 :::tip
 因为苹果需要跳转到 appstore，所以导致其更新需要连接公网。
@@ -51,7 +51,7 @@ downloader.start(); // 开始下载
 
 ### 安卓
 
-安卓的整包更新其实和热更新差不多，只是下载的包变为了 apk 文件而已。
+安卓的全量更新其实和增量更新差不多，只是下载的包变为了 apk 文件而已。
 
 ```js{3,14,32}
 plus.nativeUI.showWaiting("正在更新...");
