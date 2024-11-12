@@ -2,8 +2,8 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "笔记",
-  description: "这里有一堆笔记",
+  title: "",
+  description: "",
   base: "/docs/",
   themeConfig: {
     logo: { src: "/logo.svg", width: 24, height: 24 },
@@ -21,6 +21,7 @@ export default defineConfig({
           { text: "vitepress", link: "/vitepress/deploy" },
           { text: "git", link: "/git/commands" },
           { text: "uniapp", link: "/uniapp/app-update" },
+          { text: "未分类", link: "/unclassified" },
         ],
       },
     ],
@@ -69,8 +70,6 @@ export default defineConfig({
       ],
     },
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/WAwords/docs" }],
   },
 });
