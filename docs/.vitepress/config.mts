@@ -22,6 +22,7 @@ export default defineConfig({
           { text: "git", link: "/git/commands" },
           { text: "uniapp", link: "/uniapp/app-update" },
           { text: "未分类", link: "/unclassified" },
+          { text: "规范", link: "/rule/project" },
         ],
       },
     ],
@@ -64,6 +65,17 @@ export default defineConfig({
             {
               text: "应用更新",
               link: "/uniapp/app-update",
+            },
+          ],
+        },
+      ],
+      "/rule/": [
+        {
+          text: "规范",
+          items: [
+            {
+              text: "项目规范",
+              link: "/rule/project",
             },
           ],
         },
