@@ -31,3 +31,11 @@ export function add(a: number | { a?: number; b: number }, b?: number): number {
 []：用来表示一组字符，单独列出：[amk] 匹配 'a'，'m' 或 'k'。
 {}：用于指定前面的子表达式的出现次数。
 ```
+
+## 项目创建
+
+使用 vite 创建项目
+
+```sh
+pnpm create vite
+```
