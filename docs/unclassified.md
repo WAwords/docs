@@ -1,5 +1,22 @@
 # 未分类
 
+## Docker
+
+创建镜像：`docker build -t hello-docker .`，有时会失败，如果是网络的问题，可以配置镜像和buildkit（有时只配置了镜像一还是会报错）：
+```
+"registry-mirrors": [
+    "https://hub.littlediary.cn"
+  ],
+"features": {
+"buildkit": false
+}
+```
+
+查看镜像列表：`docker images`、`docker image ls`
+
+运行镜像：`docker run hello-docker`
+
+
 ## TS 函数重载
 
 所有 TS 最终都会编译成 JS，而 JS 的重载比较 LOW，所以 TS 写重载不过是添加了点注释
