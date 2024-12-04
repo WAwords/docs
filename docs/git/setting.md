@@ -3,14 +3,27 @@
 ## 合并
 
 :::tip
-我们将其设置为`no-ff`，即不允许快进合并。
+我们将其设置为不允许快进合并，即`必有合并提交`。
 :::
 
+:::details
+以下命令也可以设置合并策略，但是并不`强硬`，在能git判断能快进的时候还是会使用快进合并，我们需要更`强硬`的手段！
 ```sh
 # 查看当前的合并策略
 git config --global merge.default
 # 设置合并策略（不快进合并）
 git config --global merge.default no-ff
+```
+:::
+
+1. 每次合并时控制
+```sh
+git merge --no-ff 分支名
+```
+
+2. 全局控制合并策略
+```sh
+git config --global merge.ff no
 ```
 
 ## 拉取
