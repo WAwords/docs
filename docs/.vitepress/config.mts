@@ -18,11 +18,12 @@ export default defineConfig({
       {
         text: "笔记",
         items: [
-          { text: "vitepress", link: "/vitepress/deploy" },
+          { text: "vitepress相关", link: "/vitepress/deploy" },
           { text: "git", link: "/git/commands" },
           { text: "uniapp", link: "/uniapp/app-update" },
           { text: "未分类", link: "/unclassified" },
           { text: "规范", link: "/rule/project" },
+          { text: "运维相关", link: "/om/docker" },
         ],
       },
     ],
@@ -30,7 +31,7 @@ export default defineConfig({
     sidebar: {
       "/vitepress/": [
         {
-          text: "vitepress",
+          text: "vitepress相关",
           items: [
             {
               text: "部署",
@@ -76,6 +77,17 @@ export default defineConfig({
             {
               text: "项目规范",
               link: "/rule/project",
+            },
+          ],
+        },
+      ],
+      "/om/": [
+        {
+          text: "运维相关",
+          items: [
+            {
+              text: "Docker使用",
+              link: "/om/docker",
             },
           ],
         },
