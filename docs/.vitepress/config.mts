@@ -18,7 +18,7 @@ export default defineConfig({
       {
         text: "笔记",
         items: [
-          { text: "vitepress相关", link: "/vitepress/deploy" },
+          { text: "网页文档", link: "/webdocs/vitepress/deploy" },
           { text: "git", link: "/git/commands" },
           { text: "uniapp", link: "/uniapp/app-update" },
           { text: "未分类", link: "/unclassified" },
@@ -29,13 +29,21 @@ export default defineConfig({
     ],
 
     sidebar: {
-      "/vitepress/": [
+      "/webdocs/": [
         {
-          text: "vitepress相关",
+          text: "VitePress",
           items: [
             {
+              text: "安装及初始化",
+              link: "/webdocs/vitepress/install",
+            },
+            {
+              text: "使用",
+              link: "/webdocs/vitepress/use",
+            },
+            {
               text: "部署",
-              link: "/vitepress/deploy",
+              link: "/webdocs/vitepress/deploy",
             },
           ],
         },
