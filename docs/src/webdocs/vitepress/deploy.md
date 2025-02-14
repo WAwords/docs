@@ -160,10 +160,10 @@ jobs:
 
 在存储库 `Settings` 中的 `Pages` 菜单项下，选择 `Build and deployment > Source > GitHub Actions`：
 
-![Set GitHub Actions](/set-github-actions.png)
+![Set GitHub Actions](./images/set-github-actions.png)
 
 设置好之后，回到你的项目，推送你的代码到 GitHub，GitHub Actions 就会自动执行，并部署站点。
 
 你可以在 `Actions` 菜单项下查看执行情况：
 
-![GitHub Actions](/github-actions.png)
+![GitHub Actions](./images/github-actions.png)

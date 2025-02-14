@@ -35,7 +35,7 @@ pnpm vitepress init
 ┌  Welcome to VitePress!
 │
 ◇  Where should VitePress initialize the config?
-│  ./
+│  ./docs
 │
 ◇  Site title:
 │  test-project
@@ -52,7 +52,7 @@ pnpm vitepress init
 之后可能还有两个选项，选择默认即可。
 ```
 
-::: details 关于上边回答的第一个问题（在上边的例子中选择的`./`）
+::: details 关于上边回答的第一个问题（在上边的例子中选择的`./docs`）
 需要按照以下规则回答第一个问题：
 1. 使用默认的`./`：该项目是纯粹的VitePress文档项目。
 2. 使用`./docs`：该项目使用了VitePress文档，且文档只是该项目的一部分。
@@ -64,8 +64,6 @@ pnpm vitepress init
 一般来说，如果我们只是做一个`单纯的文档项目`，使用默认的`./`即可。
 
 如果是比较`复杂的项目`而文档只是嵌入到该项目中的一部分的话，建议使用`./docs`，这样的话文档相关的文件会被放到单独的文件夹中。
-
-
 :::
 
 回答完问题后，项目就已经创建完成了。
@@ -76,6 +74,60 @@ pnpm vitepress init
 pnpm run docs:dev
 ```
 执行命令后，控制台会输出文档的访问地址（比如：http://localhost:5173），访问它，正常看到文档页面则表示安装和运行成功。
+
+## 项目结构
+
+在上边我们创建好了项目，其目录结构大致如下：
+
+```
+my-docs
+├── docs
+│   ├── .vitepress
+│   │   └── config.js
+│   ├── api-examples.md
+│   ├── markdown-examples.md
+│   └── index.md
+├── .gitignore
+├── package.json
+└── pnpm-lock.yaml
+```
+
+其中的`.md`文件就是我们的文档文件（`.index.md`比较特殊，其作用是设置主页样式），而`.vitepress/config.js`文件就是我们的配置文件。
+
+按照初始化的结构已经可以进行文档的开发了，可以改变`markdown-examples.md`中的内容，然后到文档的访问地址中点击顶部的`Examples`查看效果。
+
+::: details 调整目录结构
+调整目录结构至开发常用的结构：
+```
+my-docs
+├── docs
+│   ├── .vitepress
+│   │   └── config.js
+│   └── src
+│       ├── dir1
+│       │   ├── images
+│       │   │   └── test1.jpg
+│       │   └── api-examples.md
+│       ├── dir2
+│       │   ├── images
+│       │   │   └── test2.jpg
+│       │   └── markdown-examples.md
+│       └── index.md
+├── .gitignore
+├── package.json
+└── pnpm-lock.yaml
+```
+
+其中重要的是设置`src`目录，需要通过`.vitepress/config.js`中的`srcDir`属性进行配置。
+
+``` ts
+export default defineConfig({
+  // ...
+  srcDir: "./src",
+  // ...
+});
+```
+:::
 
 ## git 初始化
 
