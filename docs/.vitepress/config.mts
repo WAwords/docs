@@ -25,6 +25,7 @@ export default defineConfig({
           { text: "未分类", link: "/unclassified" },
           { text: "规范", link: "/rule/project" },
           { text: "运维相关", link: "/om/docker" },
+          { text: "体验提升", link: "/feel" },
         ],
       },
     ],
