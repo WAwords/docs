@@ -56,3 +56,11 @@ export function add(a: number | { a?: number; b: number }, b?: number): number {
 ```sh
 pnpm create vite
 ```
+
+## 命令行
+// 查占用端口的pid（查到后到资源管理器找）
+netstat /ano | findstr 9999
+// 查占用的程序
+tasklist | findstr [2196, nginx]
+// 杀死进程
+taskkill /IM nginx.exe /F
