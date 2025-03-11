@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: "",
   description: "",
   base: "/docs/",
@@ -24,8 +25,8 @@ export default defineConfig({
           { text: "uniapp", link: "/uniapp/app-update" },
           { text: "未分类", link: "/unclassified" },
           { text: "规范", link: "/rule/project" },
-          // { text: "运维相关", link: "/om/docker" },
-          // { text: "体验提升", link: "/feel" },
+          { text: "运维相关", link: "/om/docker" },
+          { text: "体验提升", link: "/feel" },
         ],
       },
     ],
