@@ -1,10 +1,10 @@
-# UniPush 推送服务配置指南
+# uni-push 推送服务配置指南
 
 ::: tip 前言
-UniPush 是 DCloud 推出的统一推送服务，整合了各大手机厂商的推送通道，开发者只需一次接入即可实现多端推送。
+uni-push 是 DCloud 推出的统一推送服务，整合了各大手机厂商的推送通道，开发者只需一次接入即可实现多端推送。
 :::
 
-## 一、开通 UniPush 服务
+## 一、开通 uni-push 服务
 
 ### 1.1 项目配置推送服务
 
@@ -56,7 +56,7 @@ UniPush 是 DCloud 推出的统一推送服务，整合了各大手机厂商的�
 {
   "name": "pushTest",
   "version": "1.0.0",
-  "description": "UniPush 推送云函数",
+  "description": "uni-push 推送云函数",
   "main": "index.js",
   "extensions": {
     "uni-cloud-push": {}
@@ -237,7 +237,7 @@ uni.getPushClientId({
 
 ### Q: 推送收不到怎么办？
 
-1. 检查应用是否已开通 UniPush 服务
+1. 检查应用是否已开通 uni-push 服务
 2. 确认云函数已正确部署
 3. 验证客户端 CID 是否正确
 4. 检查手机通知权限是否开启
