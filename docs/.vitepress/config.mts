@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ignoreDeadLinks: true,
-  title: "技术文档",
+  title: "有个笔记",
   description: "个人技术笔记与文档整理",
   base: "/docs/",
   srcDir: "./src",
