@@ -22,6 +22,7 @@ export default defineConfig({
         items: [
           { text: "VitePress 文档", link: "/frontend/vitepress/install" },
           { text: "UniApp 开发", link: "/frontend/uniapp/app-update" },
+          { text: "UniPush 推送", link: "/frontend/uniapp/uni-push" },
         ],
       },
       {
@@ -58,6 +59,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "应用更新", link: "/frontend/uniapp/app-update" },
+            { text: "UniPush 推送", link: "/frontend/uniapp/uni-push" },
           ],
         },
       ],
