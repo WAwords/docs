@@ -3,8 +3,8 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ignoreDeadLinks: true,
-  title: "",
-  description: "",
+  title: "技术文档",
+  description: "个人技术笔记与文档整理",
   base: "/docs/",
   srcDir: "./src",
   themeConfig: {
@@ -16,95 +16,97 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "主页", link: "/" },
+      { text: "首页", link: "/" },
       {
-        text: "笔记",
+        text: "前端开发",
         items: [
-          { text: "网页文档", link: "/webdocs/vitepress/deploy" },
-          { text: "git", link: "/git/commands" },
-          { text: "uniapp", link: "/uniapp/app-update" },
-          { text: "未分类", link: "/unclassified" },
-          { text: "规范", link: "/rule/project" },
-          { text: "运维相关", link: "/om/docker" },
-          { text: "体验提升", link: "/feel" },
+          { text: "VitePress 文档", link: "/frontend/vitepress/install" },
+          { text: "UniApp 开发", link: "/frontend/uniapp/app-update" },
+        ],
+      },
+      {
+        text: "开发工具",
+        items: [
+          { text: "Git 使用", link: "/tools/git/commands" },
+          { text: "Docker 运维", link: "/tools/docker/usage" },
+        ],
+      },
+      {
+        text: "规范与技巧",
+        items: [
+          { text: "项目规范", link: "/guidelines/project" },
+          { text: "实用技巧", link: "/guidelines/tips" },
         ],
       },
     ],
 
     sidebar: {
-      "/webdocs/": [
+      "/frontend/vitepress/": [
         {
           text: "VitePress",
+          collapsed: false,
           items: [
-            {
-              text: "安装及初始化",
-              link: "/webdocs/vitepress/install",
-            },
-            {
-              text: "使用",
-              link: "/webdocs/vitepress/use",
-            },
-            {
-              text: "部署",
-              link: "/webdocs/vitepress/deploy",
-            },
+            { text: "安装及初始化", link: "/frontend/vitepress/install" },
+            { text: "基础使用", link: "/frontend/vitepress/usage" },
+            { text: "部署配置", link: "/frontend/vitepress/deploy" },
           ],
         },
       ],
-      "/git/": [
+      "/frontend/uniapp/": [
         {
-          text: "git",
+          text: "UniApp",
+          collapsed: false,
           items: [
-            {
-              text: "一些命令",
-              link: "/git/commands",
-            },
-            {
-              text: "版本更新时的操作",
-              link: "/git/update",
-            },
-            {
-              text: "设置",
-              link: "/git/setting",
-            },
+            { text: "应用更新", link: "/frontend/uniapp/app-update" },
           ],
         },
       ],
-      "/uniapp/": [
+      "/tools/git/": [
         {
-          text: "uniapp",
+          text: "Git",
+          collapsed: false,
           items: [
-            {
-              text: "应用更新",
-              link: "/uniapp/app-update",
-            },
+            { text: "常用命令", link: "/tools/git/commands" },
+            { text: "版本更新操作", link: "/tools/git/update" },
+            { text: "配置设置", link: "/tools/git/settings" },
           ],
         },
       ],
-      "/rule/": [
+      "/tools/docker/": [
         {
-          text: "规范",
+          text: "Docker",
+          collapsed: false,
           items: [
-            {
-              text: "项目规范",
-              link: "/rule/project",
-            },
+            { text: "基础使用", link: "/tools/docker/usage" },
           ],
         },
       ],
-      "/om/": [
+      "/guidelines/": [
         {
-          text: "运维相关",
+          text: "规范与技巧",
+          collapsed: false,
           items: [
-            {
-              text: "Docker使用",
-              link: "/om/docker",
-            },
+            { text: "项目规范", link: "/guidelines/project" },
+            { text: "实用技巧", link: "/guidelines/tips" },
           ],
         },
       ],
     },
 
     socialLinks: [{ icon: "github", link: "https://github.com/WAwords/docs" }],
+
+    footer: {
+      message: "基于 MIT 许可发布",
+      copyright: "Copyright © 2024-present",
+    },
+
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
+
+    returnToTopLabel: "回到顶部",
+    sidebarMenuLabel: "菜单",
+    darkModeSwitchLabel: "主题",
   },
 });

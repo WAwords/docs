@@ -3,22 +3,25 @@
 layout: home
 
 hero:
-  name: "笔记"
-  text: "这里有一堆笔记"
-  tagline: 有用的和没用的笔记我都放这儿
+  name: "技术文档"
+  text: "知识积累与分享"
+  tagline: 整理前端开发、工具使用及项目规范的笔记
   actions:
     - theme: brand
-      text: 点这儿没用
-      link: /
+      text: "开始阅读"
+      link: /frontend/vitepress/install
     - theme: alt
-      text: 这里也是
-      link: /
+      text: "Git 指南"
+      link: /tools/git/commands
 
 features:
-  - title: 方便
-    details: 用这个写文档很方便。
-  - title: 简单
-    details: 用这个写文档很简单。
-  - title: 没了
-    details: 不知道说啥。
+  - title: 前端开发
+    details: VitePress、UniApp 等前端技术文档整理，包含安装、使用、部署等完整流程。
+    link: /frontend/vitepress/install
+  - title: 开发工具
+    details: Git 版本控制、Docker 容器化运维等工具的使用技巧与最佳实践。
+    link: /tools/git/commands
+  - title: 规范与技巧
+    details: 项目开发规范、实用技巧汇总，提升开发效率与代码质量。
+    link: /guidelines/project
 ---
