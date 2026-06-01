@@ -29,6 +29,7 @@ export default defineConfig({
         text: "开发工具",
         items: [
           { text: "Git 使用", link: "/tools/git/commands" },
+          { text: "VS Code 配置", link: "/tools/vscode/settings" },
           { text: "CMD 命令", link: "/tools/cmd/commands" },
           { text: "Docker 运维", link: "/tools/docker/usage" },
           { text: "pnpm 包管理", link: "/tools/packageManager/pnpm-usage" },
@@ -100,6 +101,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "pnpm 使用技巧", link: "/tools/packageManager/pnpm-usage" },
+          ],
+        },
+      ],
+      "/tools/vscode/": [
+        {
+          text: "VS Code",
+          collapsed: false,
+          items: [
+            { text: "配置与插件", link: "/tools/vscode/settings" },
           ],
         },
       ],
