@@ -42,6 +42,7 @@ export default defineConfig({
           { text: "环境问题排查", link: "/tools/troubleshooting/environment" },
           { text: "Linux 常用命令", link: "/tools/linux/commands" },
           { text: "Markdown 语法", link: "/tools/markdown/syntax" },
+          { text: "正则表达式", link: "/tools/regex/usage" },
         ],
       },
       {
@@ -203,6 +204,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "语法指南", link: "/tools/markdown/syntax" },
+          ],
+        },
+      ],
+      "/tools/regex/": [
+        {
+          text: "正则表达式",
+          collapsed: false,
+          items: [
+            { text: "常用正则表达式", link: "/tools/regex/usage" },
           ],
         },
       ],
