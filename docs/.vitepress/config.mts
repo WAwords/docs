@@ -33,6 +33,7 @@ export default defineConfig({
           { text: "CMD 命令", link: "/tools/cmd/commands" },
           { text: "Docker 运维", link: "/tools/docker/usage" },
           { text: "pnpm 包管理", link: "/tools/packageManager/pnpm-usage" },
+          { text: "Node.js 命令", link: "/tools/nodejs/commands" },
         ],
       },
       {
@@ -74,6 +75,8 @@ export default defineConfig({
             { text: "常用命令", link: "/tools/git/commands" },
             { text: "版本更新操作", link: "/tools/git/update" },
             { text: "配置设置", link: "/tools/git/settings" },
+            { text: "Stash 暂存", link: "/tools/git/stash" },
+            { text: "Rebase 变基", link: "/tools/git/rebase" },
           ],
         },
       ],
@@ -110,6 +113,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "配置与插件", link: "/tools/vscode/settings" },
+          ],
+        },
+      ],
+      "/tools/nodejs/": [
+        {
+          text: "Node.js",
+          collapsed: false,
+          items: [
+            { text: "常用命令", link: "/tools/nodejs/commands" },
           ],
         },
       ],
