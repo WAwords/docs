@@ -40,6 +40,7 @@ export default defineConfig({
           { text: "Node.js 命令", link: "/tools/nodejs/commands" },
           { text: "环境问题排查", link: "/tools/troubleshooting/environment" },
           { text: "Linux 常用命令", link: "/tools/linux/commands" },
+          { text: "Markdown 语法", link: "/tools/markdown/syntax" },
         ],
       },
       {
@@ -183,6 +184,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "常用命令", link: "/tools/linux/commands" },
+          ],
+        },
+      ],
+      "/tools/markdown/": [
+        {
+          text: "Markdown",
+          collapsed: false,
+          items: [
+            { text: "语法指南", link: "/tools/markdown/syntax" },
           ],
         },
       ],
