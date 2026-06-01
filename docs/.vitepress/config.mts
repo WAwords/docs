@@ -29,6 +29,7 @@ export default defineConfig({
         text: "开发工具",
         items: [
           { text: "Git 使用", link: "/tools/git/commands" },
+          { text: "CMD 命令", link: "/tools/cmd/commands" },
           { text: "Docker 运维", link: "/tools/docker/usage" },
         ],
       },
@@ -71,6 +72,15 @@ export default defineConfig({
             { text: "常用命令", link: "/tools/git/commands" },
             { text: "版本更新操作", link: "/tools/git/update" },
             { text: "配置设置", link: "/tools/git/settings" },
+          ],
+        },
+      ],
+      "/tools/cmd/": [
+        {
+          text: "CMD",
+          collapsed: false,
+          items: [
+            { text: "常用命令", link: "/tools/cmd/commands" },
           ],
         },
       ],
