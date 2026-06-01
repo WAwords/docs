@@ -34,6 +34,7 @@ export default defineConfig({
           { text: "Docker 运维", link: "/tools/docker/usage" },
           { text: "pnpm 包管理", link: "/tools/packageManager/pnpm-usage" },
           { text: "Node.js 命令", link: "/tools/nodejs/commands" },
+          { text: "环境问题排查", link: "/tools/troubleshooting/environment" },
         ],
       },
       {
@@ -123,6 +124,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "常用命令", link: "/tools/nodejs/commands" },
+          ],
+        },
+      ],
+      "/tools/troubleshooting/": [
+        {
+          text: "问题排查",
+          collapsed: false,
+          items: [
+            { text: "环境问题排查", link: "/tools/troubleshooting/environment" },
           ],
         },
       ],
