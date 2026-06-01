@@ -32,6 +32,7 @@ export default defineConfig({
           { text: "VS Code 配置", link: "/tools/vscode/settings" },
           { text: "CMD 命令", link: "/tools/cmd/commands" },
           { text: "Docker 运维", link: "/tools/docker/usage" },
+          { text: "Nginx 配置", link: "/tools/nginx/config" },
           { text: "pnpm 包管理", link: "/tools/packageManager/pnpm-usage" },
           { text: "Node.js 命令", link: "/tools/nodejs/commands" },
           { text: "环境问题排查", link: "/tools/troubleshooting/environment" },
@@ -97,6 +98,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "基础使用", link: "/tools/docker/usage" },
+          ],
+        },
+      ],
+      "/tools/nginx/": [
+        {
+          text: "Nginx",
+          collapsed: false,
+          items: [
+            { text: "常用配置", link: "/tools/nginx/config" },
           ],
         },
       ],
