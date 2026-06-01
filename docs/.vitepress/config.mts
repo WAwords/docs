@@ -33,6 +33,7 @@ export default defineConfig({
           { text: "VS Code 配置", link: "/tools/vscode/settings" },
           { text: "CMD 命令", link: "/tools/cmd/commands" },
           { text: "PowerShell 使用", link: "/tools/powershell/usage" },
+          { text: "终端美化", link: "/tools/terminal/beautify" },
           { text: "Docker 运维", link: "/tools/docker/usage" },
           { text: "Nginx 配置", link: "/tools/nginx/config" },
           { text: "pnpm 包管理", link: "/tools/packageManager/pnpm-usage" },
@@ -110,6 +111,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "使用技巧", link: "/tools/powershell/usage" },
+          ],
+        },
+      ],
+      "/tools/terminal/": [
+        {
+          text: "终端",
+          collapsed: false,
+          items: [
+            { text: "终端美化", link: "/tools/terminal/beautify" },
           ],
         },
       ],
