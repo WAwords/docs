@@ -23,6 +23,7 @@ export default defineConfig({
           { text: "VitePress 文档", link: "/frontend/vitepress/install" },
           { text: "UniApp 开发", link: "/frontend/uniapp/app-update" },
           { text: "uni-push 推送", link: "/frontend/uniapp/uni-push" },
+          { text: "TypeScript 类型体操", link: "/frontend/typescript/type-challenges" },
         ],
       },
       {
@@ -69,6 +70,15 @@ export default defineConfig({
           items: [
             { text: "应用更新", link: "/frontend/uniapp/app-update" },
             { text: "uni-push 推送", link: "/frontend/uniapp/uni-push" },
+          ],
+        },
+      ],
+      "/frontend/typescript/": [
+        {
+          text: "TypeScript",
+          collapsed: false,
+          items: [
+            { text: "类型体操", link: "/frontend/typescript/type-challenges" },
           ],
         },
       ],
