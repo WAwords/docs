@@ -41,6 +41,7 @@ export default defineConfig({
         items: [
           { text: "项目规范", link: "/guidelines/project" },
           { text: "实用技巧", link: "/guidelines/tips" },
+          { text: "代码提交规范", link: "/guidelines/commit" },
         ],
       },
     ],
@@ -132,6 +133,7 @@ export default defineConfig({
           items: [
             { text: "项目规范", link: "/guidelines/project" },
             { text: "实用技巧", link: "/guidelines/tips" },
+            { text: "代码提交规范", link: "/guidelines/commit" },
           ],
         },
       ],
