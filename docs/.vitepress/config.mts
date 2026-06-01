@@ -31,6 +31,7 @@ export default defineConfig({
         items: [
           { text: "Git 使用", link: "/tools/git/commands" },
           { text: "VS Code 配置", link: "/tools/vscode/settings" },
+          { text: "Vim 常用命令", link: "/tools/vim/commands" },
           { text: "CMD 命令", link: "/tools/cmd/commands" },
           { text: "PowerShell 使用", link: "/tools/powershell/usage" },
           { text: "终端美化", link: "/tools/terminal/beautify" },
@@ -157,6 +158,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "配置与插件", link: "/tools/vscode/settings" },
+          ],
+        },
+      ],
+      "/tools/vim/": [
+        {
+          text: "Vim",
+          collapsed: false,
+          items: [
+            { text: "常用命令", link: "/tools/vim/commands" },
           ],
         },
       ],
