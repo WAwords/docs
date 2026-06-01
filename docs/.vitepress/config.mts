@@ -31,6 +31,7 @@ export default defineConfig({
           { text: "Git 使用", link: "/tools/git/commands" },
           { text: "CMD 命令", link: "/tools/cmd/commands" },
           { text: "Docker 运维", link: "/tools/docker/usage" },
+          { text: "pnpm 包管理", link: "/tools/packageManager/pnpm-usage" },
         ],
       },
       {
@@ -90,6 +91,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "基础使用", link: "/tools/docker/usage" },
+          ],
+        },
+      ],
+      "/tools/packageManager/": [
+        {
+          text: "包管理器",
+          collapsed: false,
+          items: [
+            { text: "pnpm 使用技巧", link: "/tools/packageManager/pnpm-usage" },
           ],
         },
       ],
