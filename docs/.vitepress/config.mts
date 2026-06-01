@@ -24,6 +24,7 @@ export default defineConfig({
           { text: "UniApp 开发", link: "/frontend/uniapp/app-update" },
           { text: "uni-push 推送", link: "/frontend/uniapp/uni-push" },
           { text: "TypeScript 类型体操", link: "/frontend/typescript/type-challenges" },
+          { text: "Vue.js 常用技巧", link: "/frontend/vuejs/tips" },
         ],
       },
       {
@@ -83,6 +84,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "类型体操", link: "/frontend/typescript/type-challenges" },
+          ],
+        },
+      ],
+      "/frontend/vuejs/": [
+        {
+          text: "Vue.js",
+          collapsed: false,
+          items: [
+            { text: "常用技巧", link: "/frontend/vuejs/tips" },
           ],
         },
       ],
