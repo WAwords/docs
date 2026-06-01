@@ -37,6 +37,7 @@ export default defineConfig({
           { text: "pnpm 包管理", link: "/tools/packageManager/pnpm-usage" },
           { text: "Node.js 命令", link: "/tools/nodejs/commands" },
           { text: "环境问题排查", link: "/tools/troubleshooting/environment" },
+          { text: "Linux 常用命令", link: "/tools/linux/commands" },
         ],
       },
       {
@@ -153,6 +154,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "环境问题排查", link: "/tools/troubleshooting/environment" },
+          ],
+        },
+      ],
+      "/tools/linux/": [
+        {
+          text: "Linux",
+          collapsed: false,
+          items: [
+            { text: "常用命令", link: "/tools/linux/commands" },
           ],
         },
       ],
