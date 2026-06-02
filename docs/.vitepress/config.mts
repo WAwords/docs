@@ -32,6 +32,7 @@ export default defineConfig({
           { text: "Tailwind CSS 技巧", link: "/frontend/tailwindcss/tips" },
           { text: "CSS 现代布局技巧", link: "/frontend/css/layout" },
           { text: "错误处理与日志", link: "/frontend/error-handling" },
+          { text: "Chrome 开发者工具技巧", link: "/frontend/chromeDevtools/tips" },
         ],
       },
       {
@@ -155,6 +156,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "错误处理与日志", link: "/frontend/error-handling" },
+          ],
+        },
+        {
+          text: "Chrome 开发者工具",
+          collapsed: false,
+          items: [
+            { text: "使用技巧", link: "/frontend/chromeDevtools/tips" },
           ],
         },
       ],
