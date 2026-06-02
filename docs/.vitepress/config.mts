@@ -54,6 +54,7 @@ export default defineConfig({
           { text: "Nginx 配置", link: "/tools/nginx/config" },
           { text: "pnpm 包管理", link: "/tools/packageManager/pnpm-usage" },
           { text: "Node.js 命令", link: "/tools/nodejs/commands" },
+          { text: "npm scripts 使用技巧", link: "/tools/npmScripts/usage" },
           { text: "环境问题排查", link: "/tools/troubleshooting/environment" },
           { text: "Linux 常用命令", link: "/tools/linux/commands" },
           { text: "Markdown 语法", link: "/tools/markdown/syntax" },
@@ -274,6 +275,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "常用命令", link: "/tools/nodejs/commands" },
+          ],
+        },
+      ],
+      "/tools/npmScripts/": [
+        {
+          text: "npm Scripts",
+          collapsed: false,
+          items: [
+            { text: "使用技巧", link: "/tools/npmScripts/usage" },
           ],
         },
       ],
