@@ -28,6 +28,7 @@ export default defineConfig({
           { text: "ES6+ 语法特性", link: "/frontend/javascript/es6-features" },
           { text: "React Hooks 常用指南", link: "/frontend/reactjs/react-hooks" },
           { text: "前端性能优化", link: "/frontend/performance-optimization" },
+          { text: "Tailwind CSS 技巧", link: "/frontend/tailwindcss/tips" },
         ],
       },
       {
@@ -116,6 +117,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "ES6+ 语法特性", link: "/frontend/javascript/es6-features" },
+          ],
+        },
+      ],
+      "/frontend/tailwindcss/": [
+        {
+          text: "Tailwind CSS",
+          collapsed: false,
+          items: [
+            { text: "实用技巧", link: "/frontend/tailwindcss/tips" },
           ],
         },
       ],
