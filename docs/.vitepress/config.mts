@@ -38,6 +38,7 @@ export default defineConfig({
           { text: "错误处理与日志", link: "/frontend/error-handling" },
           { text: "Chrome 开发者工具技巧", link: "/frontend/chromeDevtools/tips" },
           { text: "ESLint 与 Prettier 配置", link: "/frontend/eslint-prettier" },
+          { text: "Web 安全防护指南", link: "/frontend/web-security" },
         ],
       },
       {
@@ -188,6 +189,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "ESLint 与 Prettier 配置", link: "/frontend/eslint-prettier" },
+          ],
+        },
+        {
+          text: "Web 安全",
+          collapsed: false,
+          items: [
+            { text: "Web 安全防护指南", link: "/frontend/web-security" },
           ],
         },
       ],
