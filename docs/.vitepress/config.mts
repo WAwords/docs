@@ -42,6 +42,7 @@ export default defineConfig({
         text: "开发工具",
         items: [
           { text: "Git 使用", link: "/tools/git/commands" },
+          { text: "Git Bisect 调试", link: "/tools/git/bisect" },
           { text: "Git 工作流", link: "/tools/git/workflow" },
           { text: "VS Code 配置", link: "/tools/vscode/settings" },
           { text: "Vim 常用命令", link: "/tools/vim/commands" },
@@ -184,6 +185,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "常用命令", link: "/tools/git/commands" },
+            { text: "Bisect 二分调试", link: "/tools/git/bisect" },
             { text: "工作流程", link: "/tools/git/workflow" },
             { text: "版本更新操作", link: "/tools/git/update" },
             { text: "配置设置", link: "/tools/git/settings" },
