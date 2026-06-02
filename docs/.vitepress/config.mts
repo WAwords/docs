@@ -33,6 +33,7 @@ export default defineConfig({
           { text: "CSS 现代布局技巧", link: "/frontend/css/layout" },
           { text: "错误处理与日志", link: "/frontend/error-handling" },
           { text: "Chrome 开发者工具技巧", link: "/frontend/chromeDevtools/tips" },
+          { text: "ESLint 与 Prettier 配置", link: "/frontend/eslint-prettier" },
         ],
       },
       {
@@ -163,6 +164,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "使用技巧", link: "/frontend/chromeDevtools/tips" },
+          ],
+        },
+        {
+          text: "代码规范",
+          collapsed: false,
+          items: [
+            { text: "ESLint 与 Prettier 配置", link: "/frontend/eslint-prettier" },
           ],
         },
       ],
