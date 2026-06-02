@@ -27,6 +27,7 @@ export default defineConfig({
           { text: "Vue.js 常用技巧", link: "/frontend/vuejs/tips" },
           { text: "ES6+ 语法特性", link: "/frontend/javascript/es6-features" },
           { text: "JavaScript 设计模式", link: "/frontend/javascript/design-patterns" },
+          { text: "Promise 与 async/await", link: "/frontend/javascript/promise-async-await" },
           { text: "React Hooks 常用指南", link: "/frontend/reactjs/react-hooks" },
           { text: "React 常用技巧", link: "/frontend/reactjs/tips" },
           { text: "前端性能优化", link: "/frontend/performance-optimization" },
@@ -125,6 +126,7 @@ export default defineConfig({
           items: [
             { text: "ES6+ 语法特性", link: "/frontend/javascript/es6-features" },
             { text: "设计模式", link: "/frontend/javascript/design-patterns" },
+            { text: "Promise 与 async/await", link: "/frontend/javascript/promise-async-await" },
           ],
         },
       ],
