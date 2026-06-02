@@ -27,6 +27,7 @@ export default defineConfig({
           { text: "Vue.js 常用技巧", link: "/frontend/vuejs/tips" },
           { text: "ES6+ 语法特性", link: "/frontend/javascript/es6-features" },
           { text: "React Hooks 常用指南", link: "/frontend/reactjs/react-hooks" },
+          { text: "React 常用技巧", link: "/frontend/reactjs/tips" },
           { text: "前端性能优化", link: "/frontend/performance-optimization" },
           { text: "Tailwind CSS 技巧", link: "/frontend/tailwindcss/tips" },
         ],
