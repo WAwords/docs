@@ -46,6 +46,7 @@ export default defineConfig({
           { text: "Linux 常用命令", link: "/tools/linux/commands" },
           { text: "Markdown 语法", link: "/tools/markdown/syntax" },
           { text: "正则表达式", link: "/tools/regex/usage" },
+          { text: "SSH 常用配置", link: "/tools/ssh/config" },
         ],
       },
       {
@@ -243,6 +244,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "常用正则表达式", link: "/tools/regex/usage" },
+          ],
+        },
+      ],
+      "/tools/ssh/": [
+        {
+          text: "SSH",
+          collapsed: false,
+          items: [
+            { text: "常用配置", link: "/tools/ssh/config" },
           ],
         },
       ],
