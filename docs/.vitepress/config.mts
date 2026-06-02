@@ -36,6 +36,7 @@ export default defineConfig({
         text: "开发工具",
         items: [
           { text: "Git 使用", link: "/tools/git/commands" },
+          { text: "Git 工作流", link: "/tools/git/workflow" },
           { text: "VS Code 配置", link: "/tools/vscode/settings" },
           { text: "Vim 常用命令", link: "/tools/vim/commands" },
           { text: "CMD 命令", link: "/tools/cmd/commands" },
@@ -145,6 +146,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "常用命令", link: "/tools/git/commands" },
+            { text: "工作流程", link: "/tools/git/workflow" },
             { text: "版本更新操作", link: "/tools/git/update" },
             { text: "配置设置", link: "/tools/git/settings" },
             { text: "Stash 暂存", link: "/tools/git/stash" },
