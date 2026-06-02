@@ -26,6 +26,7 @@ export default defineConfig({
           { text: "TypeScript 类型体操", link: "/frontend/typescript/type-challenges" },
           { text: "Vue.js 常用技巧", link: "/frontend/vuejs/tips" },
           { text: "ES6+ 语法特性", link: "/frontend/javascript/es6-features" },
+          { text: "JavaScript 设计模式", link: "/frontend/javascript/design-patterns" },
           { text: "React Hooks 常用指南", link: "/frontend/reactjs/react-hooks" },
           { text: "React 常用技巧", link: "/frontend/reactjs/tips" },
           { text: "前端性能优化", link: "/frontend/performance-optimization" },
@@ -123,6 +124,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "ES6+ 语法特性", link: "/frontend/javascript/es6-features" },
+            { text: "设计模式", link: "/frontend/javascript/design-patterns" },
           ],
         },
       ],
