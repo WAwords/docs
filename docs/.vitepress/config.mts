@@ -42,6 +42,7 @@ export default defineConfig({
           { text: "Chrome 开发者工具技巧", link: "/frontend/chromeDevtools/tips" },
           { text: "ESLint 与 Prettier 配置", link: "/frontend/eslint-prettier" },
           { text: "Web 安全防护指南", link: "/frontend/web-security" },
+          { text: "Webpack 配置指南", link: "/frontend/webpack/config" },
         ],
       },
       {
@@ -158,6 +159,15 @@ export default defineConfig({
           items: [
             { text: "现代布局技巧", link: "/frontend/css/layout" },
             { text: "动画实用指南", link: "/frontend/css/animation" },
+          ],
+        },
+      ],
+      "/frontend/webpack/": [
+        {
+          text: "Webpack",
+          collapsed: false,
+          items: [
+            { text: "配置指南", link: "/frontend/webpack/config" },
           ],
         },
       ],
