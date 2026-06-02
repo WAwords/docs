@@ -30,6 +30,7 @@ export default defineConfig({
           { text: "React 常用技巧", link: "/frontend/reactjs/tips" },
           { text: "前端性能优化", link: "/frontend/performance-optimization" },
           { text: "Tailwind CSS 技巧", link: "/frontend/tailwindcss/tips" },
+          { text: "错误处理与日志", link: "/frontend/error-handling" },
         ],
       },
       {
@@ -137,6 +138,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "性能优化指南", link: "/frontend/performance-optimization" },
+          ],
+        },
+        {
+          text: "错误处理",
+          collapsed: false,
+          items: [
+            { text: "错误处理与日志", link: "/frontend/error-handling" },
           ],
         },
       ],
