@@ -25,6 +25,7 @@ export default defineConfig({
           { text: "uni-push 推送", link: "/frontend/uniapp/uni-push" },
           { text: "TypeScript 类型体操", link: "/frontend/typescript/type-challenges" },
           { text: "Vue.js 常用技巧", link: "/frontend/vuejs/tips" },
+          { text: "Vue 3 组合式 API", link: "/frontend/vuejs/composition-api" },
           { text: "ES6+ 语法特性", link: "/frontend/javascript/es6-features" },
           { text: "JavaScript 设计模式", link: "/frontend/javascript/design-patterns" },
           { text: "Promise 与 async/await", link: "/frontend/javascript/promise-async-await" },
@@ -114,6 +115,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "常用技巧", link: "/frontend/vuejs/tips" },
+            { text: "组合式 API", link: "/frontend/vuejs/composition-api" },
           ],
         },
       ],
