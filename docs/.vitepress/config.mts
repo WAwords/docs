@@ -45,6 +45,7 @@ export default defineConfig({
           { text: "Web 安全防护指南", link: "/frontend/web-security" },
           { text: "Webpack 配置指南", link: "/frontend/webpack/config" },
           { text: "前端常用工具库", link: "/frontend/useful-libraries" },
+          { text: "前端测试框架", link: "/frontend/testing-frameworks" },
         ],
       },
       {
@@ -222,6 +223,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "前端常用工具库", link: "/frontend/useful-libraries" },
+          ],
+        },
+        {
+          text: "测试框架",
+          collapsed: false,
+          items: [
+            { text: "前端测试框架", link: "/frontend/testing-frameworks" },
           ],
         },
       ],
