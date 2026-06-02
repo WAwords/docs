@@ -44,6 +44,7 @@ export default defineConfig({
           { text: "ESLint 与 Prettier 配置", link: "/frontend/eslint-prettier" },
           { text: "Web 安全防护指南", link: "/frontend/web-security" },
           { text: "Webpack 配置指南", link: "/frontend/webpack/config" },
+          { text: "前端常用工具库", link: "/frontend/useful-libraries" },
         ],
       },
       {
@@ -214,6 +215,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "Web 安全防护指南", link: "/frontend/web-security" },
+          ],
+        },
+        {
+          text: "工具库",
+          collapsed: false,
+          items: [
+            { text: "前端常用工具库", link: "/frontend/useful-libraries" },
           ],
         },
       ],
