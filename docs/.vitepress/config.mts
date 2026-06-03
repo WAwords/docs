@@ -39,6 +39,7 @@ export default defineConfig({
           { text: "Tailwind CSS 技巧", link: "/frontend/tailwindcss/tips" },
           { text: "CSS 现代布局技巧", link: "/frontend/css/layout" },
           { text: "CSS 动画实用指南", link: "/frontend/css/animation" },
+          { text: "CSS Flexbox 布局指南", link: "/frontend/css/flexbox" },
           { text: "错误处理与日志", link: "/frontend/error-handling" },
           { text: "Chrome 开发者工具技巧", link: "/frontend/chromeDevtools/tips" },
           { text: "ESLint 与 Prettier 配置", link: "/frontend/eslint-prettier" },
@@ -165,6 +166,7 @@ export default defineConfig({
           items: [
             { text: "现代布局技巧", link: "/frontend/css/layout" },
             { text: "动画实用指南", link: "/frontend/css/animation" },
+            { text: "Flexbox 布局指南", link: "/frontend/css/flexbox" },
           ],
         },
       ],
