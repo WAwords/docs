@@ -48,6 +48,7 @@ export default defineConfig({
           { text: "CSS Grid 布局指南", link: "/frontend/css/grid" },
           { text: "错误处理与日志", link: "/frontend/error-handling" },
           { text: "Chrome 开发者工具技巧", link: "/frontend/chromeDevtools/tips" },
+          { text: "console.log 实用技巧", link: "/frontend/console-log-tips" },
           { text: "ESLint 与 Prettier 配置", link: "/frontend/eslint-prettier" },
           { text: "Husky 与 lint-staged 自动化", link: "/frontend/husky-lint-staged" },
           { text: "前端代码命名规范", link: "/frontend/naming-conventions" },
@@ -236,6 +237,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "使用技巧", link: "/frontend/chromeDevtools/tips" },
+            { text: "console.log 实用技巧", link: "/frontend/console-log-tips" },
           ],
         },
         {
