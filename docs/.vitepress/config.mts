@@ -72,6 +72,7 @@ export default defineConfig({
           { text: "Docker 运维", link: "/tools/docker/usage" },
           { text: "Nginx 配置", link: "/tools/nginx/config" },
           { text: "pnpm 包管理", link: "/tools/packageManager/pnpm-usage" },
+          { text: "Bun 使用指南", link: "/tools/bun/usage" },
           { text: "Node.js 命令", link: "/tools/nodejs/commands" },
           { text: "npm scripts 使用技巧", link: "/tools/npmScripts/usage" },
           { text: "环境问题排查", link: "/tools/troubleshooting/environment" },
@@ -338,6 +339,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "pnpm 使用技巧", link: "/tools/packageManager/pnpm-usage" },
+          ],
+        },
+      ],
+      "/tools/bun/": [
+        {
+          text: "Bun",
+          collapsed: false,
+          items: [
+            { text: "使用指南", link: "/tools/bun/usage" },
           ],
         },
       ],
