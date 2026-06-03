@@ -36,6 +36,7 @@ export default defineConfig({
           { text: "React Hooks 常用指南", link: "/frontend/reactjs/react-hooks" },
           { text: "React 常用技巧", link: "/frontend/reactjs/tips" },
           { text: "前端性能优化", link: "/frontend/performance-optimization" },
+            { text: "前端性能监控与分析", link: "/frontend/performance-monitoring" },
           { text: "前端图片优化指南", link: "/frontend/image-optimization" },
           { text: "浏览器缓存机制", link: "/frontend/browser-cache" },
           { text: "Tailwind CSS 技巧", link: "/frontend/tailwindcss/tips" },
@@ -201,6 +202,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "性能优化指南", link: "/frontend/performance-optimization" },
+            { text: "性能监控与分析", link: "/frontend/performance-monitoring" },
             { text: "图片优化指南", link: "/frontend/image-optimization" },
           ],
         },
