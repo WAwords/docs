@@ -62,6 +62,7 @@ export default defineConfig({
           { text: "项目初始化与脚手架配置", link: "/frontend/project-initialization" },
           { text: "前端模块化开发", link: "/frontend/modular-development" },
           { text: "前端状态管理", link: "/frontend/state-management" },
+          { text: "前端国际化(i18n)实现方案", link: "/frontend/i18n" },
         ],
       },
       {
@@ -295,6 +296,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "前端状态管理指南", link: "/frontend/state-management" },
+          ],
+        },
+        {
+          text: "国际化",
+          collapsed: false,
+          items: [
+            { text: "前端国际化(i18n)实现方案", link: "/frontend/i18n" },
           ],
         },
       ],
