@@ -73,6 +73,7 @@ export default defineConfig({
           { text: "Markdown 语法", link: "/tools/markdown/syntax" },
           { text: "正则表达式", link: "/tools/regex/usage" },
           { text: "SSH 常用配置", link: "/tools/ssh/config" },
+          { text: "AI 工具使用技巧", link: "/tools/ai-tools/tips" },
         ],
       },
       {
@@ -395,6 +396,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "常用配置", link: "/tools/ssh/config" },
+          ],
+        },
+      ],
+      "/tools/ai-tools/": [
+        {
+          text: "AI 工具",
+          collapsed: false,
+          items: [
+            { text: "使用技巧", link: "/tools/ai-tools/tips" },
           ],
         },
       ],
