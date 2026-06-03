@@ -53,7 +53,8 @@ export default defineConfig({
           { text: "前端代码命名规范", link: "/frontend/naming-conventions" },
           { text: "Web 安全防护指南", link: "/frontend/web-security" },
           { text: "Webpack 配置指南", link: "/frontend/webpack/config" },
-          { text: "Vite 配置指南", link: "/frontend/vite/config" },
+            { text: "Vite 配置指南", link: "/frontend/vite/config" },
+            { text: "Vite 构建优化", link: "/frontend/vite/optimization" },
           { text: "前端常用工具库", link: "/frontend/useful-libraries" },
           { text: "测试框架", link: "/frontend/testing-frameworks" },
           { text: "环境变量配置", link: "/frontend/environment-variables" },
@@ -201,6 +202,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "配置指南", link: "/frontend/vite/config" },
+            { text: "构建优化", link: "/frontend/vite/optimization" },
           ],
         },
       ],
