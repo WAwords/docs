@@ -55,6 +55,7 @@ export default defineConfig({
           { text: "测试框架", link: "/frontend/testing-frameworks" },
           { text: "环境变量配置", link: "/frontend/environment-variables" },
           { text: "项目初始化与脚手架配置", link: "/frontend/project-initialization" },
+          { text: "前端模块化开发", link: "/frontend/modular-development" },
         ],
       },
       {
@@ -269,6 +270,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "项目初始化与脚手架配置", link: "/frontend/project-initialization" },
+          ],
+        },
+        {
+          text: "模块化开发",
+          collapsed: false,
+          items: [
+            { text: "前端模块化开发", link: "/frontend/modular-development" },
           ],
         },
       ],
