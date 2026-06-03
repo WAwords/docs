@@ -51,6 +51,7 @@ export default defineConfig({
           { text: "Vite 配置指南", link: "/frontend/vite/config" },
           { text: "前端常用工具库", link: "/frontend/useful-libraries" },
           { text: "前端测试框架", link: "/frontend/testing-frameworks" },
+          { text: "环境变量配置", link: "/frontend/environment-variables" },
         ],
       },
       {
@@ -244,11 +245,17 @@ export default defineConfig({
             { text: "前端常用工具库", link: "/frontend/useful-libraries" },
           ],
         },
-        {
-          text: "测试框架",
+        { text: "测试框架",
           collapsed: false,
           items: [
             { text: "前端测试框架", link: "/frontend/testing-frameworks" },
+          ],
+        },
+        {
+          text: "环境变量",
+          collapsed: false,
+          items: [
+            { text: "环境变量配置", link: "/frontend/environment-variables" },
           ],
         },
       ],
