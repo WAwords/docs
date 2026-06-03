@@ -52,8 +52,9 @@ export default defineConfig({
           { text: "Webpack 配置指南", link: "/frontend/webpack/config" },
           { text: "Vite 配置指南", link: "/frontend/vite/config" },
           { text: "前端常用工具库", link: "/frontend/useful-libraries" },
-          { text: "前端测试框架", link: "/frontend/testing-frameworks" },
+          { text: "测试框架", link: "/frontend/testing-frameworks" },
           { text: "环境变量配置", link: "/frontend/environment-variables" },
+          { text: "项目初始化与脚手架配置", link: "/frontend/project-initialization" },
         ],
       },
       {
@@ -260,6 +261,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "环境变量配置", link: "/frontend/environment-variables" },
+          ],
+        },
+        {
+          text: "项目初始化",
+          collapsed: false,
+          items: [
+            { text: "项目初始化与脚手架配置", link: "/frontend/project-initialization" },
           ],
         },
       ],
