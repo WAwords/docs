@@ -64,6 +64,7 @@ export default defineConfig({
           { text: "前端状态管理", link: "/frontend/state-management" },
           { text: "前端国际化(i18n)实现方案", link: "/frontend/i18n" },
           { text: "Web Workers 使用指南", link: "/frontend/web-workers" },
+          { text: "前端本地存储最佳实践", link: "/frontend/local-storage" },
         ],
       },
       {
@@ -311,6 +312,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "Web Workers 使用指南", link: "/frontend/web-workers" },
+          ],
+        },
+        {
+          text: "本地存储",
+          collapsed: false,
+          items: [
+            { text: "前端本地存储最佳实践", link: "/frontend/local-storage" },
           ],
         },
       ],
