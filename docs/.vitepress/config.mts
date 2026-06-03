@@ -44,6 +44,7 @@ export default defineConfig({
           { text: "ESLint 与 Prettier 配置", link: "/frontend/eslint-prettier" },
           { text: "Web 安全防护指南", link: "/frontend/web-security" },
           { text: "Webpack 配置指南", link: "/frontend/webpack/config" },
+          { text: "Vite 配置指南", link: "/frontend/vite/config" },
           { text: "前端常用工具库", link: "/frontend/useful-libraries" },
           { text: "前端测试框架", link: "/frontend/testing-frameworks" },
         ],
@@ -172,6 +173,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "配置指南", link: "/frontend/webpack/config" },
+          ],
+        },
+      ],
+      "/frontend/vite/": [
+        {
+          text: "Vite",
+          collapsed: false,
+          items: [
+            { text: "配置指南", link: "/frontend/vite/config" },
           ],
         },
       ],
