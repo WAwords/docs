@@ -48,6 +48,7 @@ export default defineConfig({
           { text: "Chrome 开发者工具技巧", link: "/frontend/chromeDevtools/tips" },
           { text: "ESLint 与 Prettier 配置", link: "/frontend/eslint-prettier" },
           { text: "Husky 与 lint-staged 自动化", link: "/frontend/husky-lint-staged" },
+          { text: "前端代码命名规范", link: "/frontend/naming-conventions" },
           { text: "Web 安全防护指南", link: "/frontend/web-security" },
           { text: "Webpack 配置指南", link: "/frontend/webpack/config" },
           { text: "Vite 配置指南", link: "/frontend/vite/config" },
@@ -236,6 +237,7 @@ export default defineConfig({
           items: [
             { text: "ESLint 与 Prettier 配置", link: "/frontend/eslint-prettier" },
             { text: "Husky 与 lint-staged 自动化", link: "/frontend/husky-lint-staged" },
+            { text: "前端代码命名规范", link: "/frontend/naming-conventions" },
           ],
         },
         {
