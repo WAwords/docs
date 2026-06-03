@@ -57,6 +57,7 @@ export default defineConfig({
           { text: "环境变量配置", link: "/frontend/environment-variables" },
           { text: "项目初始化与脚手架配置", link: "/frontend/project-initialization" },
           { text: "前端模块化开发", link: "/frontend/modular-development" },
+          { text: "前端状态管理", link: "/frontend/state-management" },
         ],
       },
       {
@@ -279,6 +280,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "前端模块化开发", link: "/frontend/modular-development" },
+          ],
+        },
+        {
+          text: "状态管理",
+          collapsed: false,
+          items: [
+            { text: "前端状态管理指南", link: "/frontend/state-management" },
           ],
         },
       ],
