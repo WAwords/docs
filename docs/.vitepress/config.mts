@@ -67,9 +67,10 @@ export default defineConfig({
           { text: "Web Workers 使用指南", link: "/frontend/web-workers" },
           { text: "前端本地存储最佳实践", link: "/frontend/local-storage" },
           { text: "前端开发最佳实践", link: "/frontend/best-practices" },
+          { text: "浏览器事件循环", link: "/frontend/browser-event-loop" },
         ],
       },
-      {
+      "/tools/git/": {
         text: "开发工具",
         items: [
           { text: "Git 使用", link: "/tools/git/commands" },
@@ -331,6 +332,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "前端开发最佳实践", link: "/frontend/best-practices" },
+          ],
+        },
+        {
+          text: "事件循环",
+          collapsed: false,
+          items: [
+            { text: "浏览器事件循环", link: "/frontend/browser-event-loop" },
           ],
         },
       ],
