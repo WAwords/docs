@@ -69,6 +69,7 @@ export default defineConfig({
           { text: "前端本地存储最佳实践", link: "/frontend/local-storage" },
           { text: "前端开发最佳实践", link: "/frontend/best-practices" },
           { text: "浏览器事件循环", link: "/frontend/browser-event-loop" },
+          { text: "代码分割与懒加载", link: "/frontend/code-splitting" },
         ],
       },
       "/tools/git/": {
@@ -341,6 +342,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "浏览器事件循环", link: "/frontend/browser-event-loop" },
+          ],
+        },
+        {
+          text: "代码分割",
+          collapsed: false,
+          items: [
+            { text: "代码分割与懒加载", link: "/frontend/code-splitting" },
           ],
         },
       ],
