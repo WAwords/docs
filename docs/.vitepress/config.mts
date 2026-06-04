@@ -72,6 +72,7 @@ export default defineConfig({
         text: "开发工具",
         items: [
           { text: "Git 使用", link: "/tools/git/commands" },
+          { text: "GitHub Actions CI/CD", link: "/tools/git/github-actions" },
           { text: "Git Bisect 调试", link: "/tools/git/bisect" },
           { text: "Git 工作流", link: "/tools/git/workflow" },
           { text: "Git Submodule 子模块", link: "/tools/git/submodule" },
@@ -337,6 +338,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "常用命令", link: "/tools/git/commands" },
+            { text: "GitHub Actions CI/CD", link: "/tools/git/github-actions" },
             { text: "Bisect 二分调试", link: "/tools/git/bisect" },
             { text: "工作流程", link: "/tools/git/workflow" },
             { text: "版本更新操作", link: "/tools/git/update" },
